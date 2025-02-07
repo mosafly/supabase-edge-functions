@@ -128,3 +128,12 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Supabase Edge Functions
+supabase/.env
+supabase/.temp/
+supabase/.config/
+
+# Deno (Supabase utilise Deno)
+deno.lock
+deno.json
